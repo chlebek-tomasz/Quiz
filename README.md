@@ -1,5 +1,5 @@
 # Quiz
 
 Console version of QUIZ. <br/>
-*24.11.2019* <br/>
+<b>*24.11.2019*</b> <br/>
 Add Game and GameLoop Classes
