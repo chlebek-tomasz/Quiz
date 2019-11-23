@@ -3,12 +3,16 @@ import java.util.List;
 import java.util.Random;
 
 public class Level {
-    private int level = 1;
+    private int level;
     private String[] questions = new String[6];
     private String correctAnswer = questions[5];
     private int bound = new dbConnection().executeQuery();
     private Random random = new Random();
     private List<Integer> usedQuestion = new ArrayList<>(); // List of questions used
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
 
     private int randomQuestion(){
         int id;
@@ -32,7 +36,7 @@ public class Level {
         }
     }
 
-    public void setCorrectAnswer(String correctAnswer) {
+    private void setCorrectAnswer(String correctAnswer) {
         this.correctAnswer = correctAnswer;
     }
 

@@ -12,9 +12,12 @@ public class Player {
         return name;
     }
 
-    public void setName(String name) {
-        if(!(name.isEmpty()) && name != null){
+    public void setName(String name){
+        if(name!=null && name.matches("^[A-Za-z0-9~]{3,}$")) {
             this.name = name;
+
+        } else {
+            throw new IllegalArgumentException();
         }
     }
 
