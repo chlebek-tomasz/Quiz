@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34545be1-b251-4c5b-a043-6903c3c878dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GameLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quiz/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quiz/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quiz/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quiz/Level.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quiz/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quiz/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Level.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,8 +92,17 @@
       <workItem from="1574353007897" duration="8000" />
       <workItem from="1574375364051" duration="1000000" />
       <workItem from="1574500564385" duration="81000" />
-      <workItem from="1574547869734" duration="1900000" />
+      <workItem from="1574547869734" duration="2708000" />
+      <workItem from="1575053809827" duration="1736000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Game and GameLoop Classes">
+      <created>1574549899443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574549899443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Game and GameLoop Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Game and GameLoop Classes" />
   </component>
 </project>

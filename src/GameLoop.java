@@ -1,5 +1,3 @@
-import java.net.HttpURLConnection;
-import java.net.http.HttpRequest;
 
 public class GameLoop {
     private Level level;
@@ -10,9 +8,9 @@ public class GameLoop {
         level = new Level();
         player = new Player("Tomek");
         do {
-            setLevel(lev);
             setQuestions();
-        } while(equalsAnswer() && lev <=10);
+        } while(equalsAnswer() && lev <=100);
+        player.returnScore();
     }
 
     private void setLevel(int level){
@@ -30,7 +28,11 @@ public class GameLoop {
     }
 
     private boolean equalsAnswer(){
-        if(level.equalsResult(answerQuestion())) return true;
+        if(level.equalsResult(answerQuestion())){
+            lev++;
+            player.incrementScore();
+            return true;
+        }
         else return false;
     }
 }
