@@ -86,11 +86,11 @@ public class dbQuery {
         Player[] players = new Player[10];
         try{
             stmt = conn.createStatement();
-            rs = stmt.executeQuery("SELECT playerName, score FROM ranking ORDER BY score LIMIT 10");
+            rs = stmt.executeQuery("SELECT playerName, points FROM ranking ORDER BY points LIMIT 10");
             int i = 0;
             while(rs.next()){
                 players[i].setName(rs.getString("playerName"));
-                players[i].setScore(i);
+                players[i].setScore(rs.getInt("points"));
                 i++;
             }
         } catch (SQLException e) {
