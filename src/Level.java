@@ -5,7 +5,7 @@ import java.util.Random;
 public class Level {
     private String[] questions = new String[6];
     private String correctAnswer = questions[5];
-    private int bound = new dbQuery().howManyId();
+    private int bound = dbQuery.howManyId();
     private Random random = new Random();
     private List<Integer> usedQuestion = new ArrayList<>(); // List of questions used
 
@@ -21,7 +21,7 @@ public class Level {
     public void setQuestions() {
         int id = randomQuestion();
         usedQuestion.add(id);
-        this.questions = dbQuery.questionsQuery(id);
+        questions = dbQuery.questionsQuery(id);
         setCorrectAnswer(questions[5]);
         }
 

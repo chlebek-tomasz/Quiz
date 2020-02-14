@@ -11,6 +11,8 @@ public class GameLoop {
             setQuestions();
         } while(equalsAnswer() && lev <=100);
         player.returnScore();
+        Ranking.addToRanking(player.getName(), player.getScore());
+        Ranking.returnTopScores();
     }
 
     private void setLevel(int level){
