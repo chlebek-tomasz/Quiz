@@ -5,7 +5,9 @@ public class Player {
     private int score = 0;
     private Scanner scanner = new Scanner(System.in);
 
-    public Player(String name) {
+    public Player() {
+        text();
+        name = scanner.nextLine();
         setName(name);
     }
 
@@ -39,5 +41,9 @@ public class Player {
     }
     public void returnScore(){
         System.out.println(score);
+    }
+
+    private void text(){
+        System.out.println("Podaj swoje imie:");
     }
 }

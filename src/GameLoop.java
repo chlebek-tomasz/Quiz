@@ -6,7 +6,7 @@ public class GameLoop {
 
     public void startGame(){
         level = new Level();
-        player = new Player("Tomek");
+        player = new Player();
         do {
             setQuestions();
         } while(equalsAnswer() && lev <=100);

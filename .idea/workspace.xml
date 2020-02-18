@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34545be1-b251-4c5b-a043-6903c3c878dc" name="Default Changelist" comment="Improve code">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="34545be1-b251-4c5b-a043-6903c3c878dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quiz/GameLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quiz/GameLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quiz/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quiz/Level.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quiz/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quiz/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quiz/Ranking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quiz/Ranking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Quiz/dbQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Quiz/dbQuery.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Level.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Level.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ranking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ranking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dbConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dbQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dbQuery.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +134,9 @@
       <workItem from="1581609650146" duration="7289000" />
       <workItem from="1581626453603" duration="3364000" />
       <workItem from="1581632336700" duration="3587000" />
-      <workItem from="1581671155103" duration="1182000" />
+      <workItem from="1581671155103" duration="1565000" />
+      <workItem from="1581672733667" duration="388000" />
+      <workItem from="1582062085413" duration="246000" />
     </task>
     <task id="LOCAL-00001" summary="Added Game and GameLoop Classes">
       <created>1574549899443</created>
@@ -182,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581615856512</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="14-02-2020">
+      <created>1581672373750</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581672373750</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +202,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Game and GameLoop Classes" />
     <MESSAGE value="Improve code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve code" />
+    <MESSAGE value="14-02-2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="14-02-2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#SQL_Dialects" timestamp="1581613092629">
@@ -219,42 +218,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="244" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1581611143548" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1581634202396">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1582062356605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581634202396" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582062356605" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1581628977064">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1581628977064" />
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1581671993759">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom" timestamp="1582062333031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581671993759" />
-    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1581671993759">
+    <state width="1492" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582062333031" />
+    <state width="1492" height="210" key="GridCell.Tab.0.center" timestamp="1582062333031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581671993759" />
-    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1581671993759">
+    <state width="1492" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582062333031" />
+    <state width="1492" height="210" key="GridCell.Tab.0.left" timestamp="1582062333031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581671993759" />
-    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1581671993759">
+    <state width="1492" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582062333031" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right" timestamp="1582062333031">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581671993759" />
+    <state width="1492" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582062333031" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1581615013961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581615013961" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581615858900">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581672378754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581615858900" />
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581672136722">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581672378754" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582062359029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1581672136722" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1582062359029" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581633926389">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
